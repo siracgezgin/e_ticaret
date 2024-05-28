@@ -138,3 +138,12 @@ Web tarayıcınızı açın ve `http://localhost/e_ticaret` adresine gidin.
 Artık E-Ticaret Projesi'ni kullanmaya başlayabilirsiniz!
 
 ---
+![Ekran Görüntüsü (115)](https://github.com/siracgezgin/e_ticaret/assets/119105917/935be262-14b6-4d3a-a1a0-a2d17a80f81d)
+![Ekran Görüntüsü (116)](https://github.com/siracgezgin/e_ticaret/assets/119105917/57eecd1b-3b06-4e7c-a253-ad9fbc401b72)
+![Ekran Görüntüsü (117)](https://github.com/siracgezgin/e_ticaret/assets/119105917/8b2d518a-0b14-42a7-a0d9-8e06da66a41a)
+![Ekran Görüntüsü (119)](https://github.com/siracgezgin/e_ticaret/assets/119105917/c055ea23-d8bb-426e-8652-93fbf342f1fb)
+![Ekran Görüntüsü (118)](https://github.com/siracgezgin/e_ticaret/assets/119105917/0b613ab6-d0cd-4dbd-adc6-97aa098607ef)
+![Ekran Görüntüsü (120)](https://github.com/siracgezgin/e_ticaret/assets/119105917/5462ed3c-7383-45d1-9eea-f3bf38b7fc57)
+![Ekran Görüntüsü (121)](https://github.com/siracgezgin/e_ticaret/assets/119105917/405a221b-4a2d-436d-9ddb-078a053cb4ba)
+![Ekran Görüntüsü (122)](https://github.com/siracgezgin/e_ticaret/assets/119105917/af246ef4-57ed-4a8f-bea1-ed61ec869134)
+![Ekran Görüntüsü (123)](https://github.com/siracgezgin/e_ticaret/assets/119105917/88a891d8-76d8-4626-b676-b41c8b4dad29)
