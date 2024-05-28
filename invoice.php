@@ -9,7 +9,11 @@ if (!isset($_SESSION['kullanici_id'])) {
 
 $kullanici_id = $_SESSION['kullanici_id'];
 
-$query = "SELECT fatura.*, urunler.isim, urunler.fiyat FROM fatura INNER JOIN urunler ON fatura.urun_id = urunler.urun_id WHERE fatura.kullanici_id = ?";
+$query = "SELECT fatura.tarih, urunler.isim, fatura_detaylari.adet, urunler.fiyat 
+          FROM fatura 
+          INNER JOIN fatura_detaylari ON fatura.fatura_id = fatura_detaylari.fatura_id
+          INNER JOIN urunler ON fatura_detaylari.urun_id = urunler.urun_id
+          WHERE fatura.kullanici_id = ?";
 $stmt = $conn->prepare($query);
 $stmt->bind_param("i", $kullanici_id);
 $stmt->execute();
