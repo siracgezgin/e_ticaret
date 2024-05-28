@@ -38,7 +38,7 @@ git clone https://github.com/siracgezgin/e_ticaret.git
 
 3. Projeyi klonladığınız dizindeki `sql` veya `database` klasörüne gidin ve `e_ticaret.sql` dosyasını içe aktararak veritabanını oluşturun.
 
-Veritabanı yapısı şu şekildedir:
+Veya veritabanı yapısı şu şekildedir oluşturabilirsiniz:
 
 #### Kullanıcılar Tablosu
 
