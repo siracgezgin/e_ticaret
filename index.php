@@ -18,6 +18,25 @@ if (isset($_SESSION['kullanici_id'])) {
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <!-- Ek CSS Kodları -->
+    <style>
+        @media screen and (min-width: 768px) {
+            /* Masaüstü stilini burada tanımla */
+            body {
+                padding-top: 56px;
+            }
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            width: 100%;
+        }
+        .container {
+            padding-bottom: 100px; /* Footer yüksekliğine göre ayarlayın */
+        }
+    </style>
 </head>
 <body>
 
@@ -61,18 +80,18 @@ if (isset($_SESSION['kullanici_id'])) {
             </div>
         </div>
         <div class="carousel-item">
-        <div class="row">
-            <div class="col-md-4">
-                <img class="d-block w-100" src="img/slider1.png" alt="Fourth slide">
-            </div>
-            <div class="col-md-4">
-                <img class="d-block w-100" src="img/slider2.png" alt="Fifth slide">
-            </div>
-            <div class="col-md-4">
-                <img class="d-block w-100" src="img/slider3.png" alt="Sixth slide">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="d-block w-100" src="img/slider1.png" alt="Fourth slide">
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100" src="img/slider2.png" alt="Fifth slide">
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100" src="img/slider3.png" alt="Sixth slide">
+                </div>
             </div>
         </div>
-    </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -84,13 +103,23 @@ if (isset($_SESSION['kullanici_id'])) {
     </a>
 </div>
 
+<!-- Animasyonlu Restoran Metni -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="display-4 mb-4">Hoş Geldiniz!</h2>
+            <p class="lead">Lezzetli yemekler, sıcak bir atmosfer ve unutulmaz anlar için doğru adrestesiniz. Restoranımız, lezzetli yemekleri ve mükemmel hizmetiyle her zevke hitap etmektedir. Misafirlerimizi ağırlamaktan mutluluk duyuyoruz. Sizi aramızda görmek için sabırsızlanıyoruz!</p>
+        </div>
+    </div>
+</div>
+
 <!-- Footer -->
 <footer class="footer mt-auto py-3 bg-light">
     <div class="container">
-    <span class="text-muted">FOUNDER OF SIRAC GEZGIN 
-                <a href="https://github.com/siracgezgin/e_ticaret" target="_blank"><img src="img/github.png" alt="GitHub" width="30" height="30" class="social-icon"></a>
-                <a href="https://www.linkedin.com/in/siracgezgin/" target="_blank"><img src="img/linkedln.png" alt="Linkedln" width="30" height="30" class="social-icon"></a>
-                <a href="https://www.youtube.com/@siracgezgin" target="_blank"><img src="img/youtube.png" alt="YouTube" width="30" height="30" class="social-icon"></a>
+        <span class="text-muted">FOUNDER OF SIRAC GEZGIN 
+            <a href="https://github.com/siracgezgin/e_ticaret" target="_blank"><img src="img/github.png" alt="GitHub" width="30" height="30" class="social-icon"></a>
+            <a href="https://www.linkedin.com/in/siracgezgin/" target="_blank"><img src="img/linkedln.png" alt="Linkedln" width="30" height="30" class="social-icon"></a>
+            <a href="https://www.youtube.com/@siracgezgin" target="_blank"><img src="img/youtube.png" alt="YouTube" width="30" height="30" class="social-icon"></a>
         </span>
     </div>
 </footer>
