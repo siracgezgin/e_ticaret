@@ -1,0 +1,89 @@
+/* Genel Stil Ayarları */
+body {
+    padding-top: 56px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Navbar Stil Ayarları */
+.navbar {
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #4a90e2, #50a3a2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link.hover-effect:hover {
+    color: #ff6347 !important;
+    transition: color 0.5s ease-in-out;
+}
+
+/* Carousel Stil Ayarları */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-inner img {
+    max-width: 33%;
+    height: auto;
+}
+
+/* Footer Stil Ayarları */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #50b1c8;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;  /* Yazı rengi beyaz olarak ayarlandı */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer:hover {
+    background-color: #3a8ba2;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Alert Stil Ayarları */
+.alert {
+    margin-top: 20px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
