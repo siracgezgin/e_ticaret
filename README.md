@@ -1,6 +1,10 @@
+# Sayfanın Linki
+http://sirac.lovestoblog.com/index.php
+
 # E-Ticaret Projesi
 
 Bu proje, bir e-ticaret web uygulamasının temel özelliklerini içerir. Kullanıcılar, ürünleri görüntüleyebilir, sepete ekleyebilir, sipariş verebilir , ürün ekleyebilir-silebilirler ve hesaplarını yönetebilirler.
+
 
 ## Özellikler
 
