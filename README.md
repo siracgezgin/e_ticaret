@@ -119,6 +119,11 @@ CREATE TABLE faturalar (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 ```
+### Tabloların İlişkileri
+
+1. `kullanicilar` tablosu ile `fatura`, `sepet`, `siparisler` tabloları arasında bir ilişki vardır. Her kullanıcı birden fazla fatura, sepet veya sipariş oluşturabilir.
+2. `urunler` tablosu ile `sepet`, `fatura_detaylari`, ve `faturalar` tabloları arasında bir ilişki vardır. Her ürün birden fazla sepet kaydında, fatura detayında veya fatura kaydında yer alabilir.
+3. `fatura` tablosu ile `fatura_detaylari` ve `faturalar` tabloları arasında bir ilişki vardır. Her fatura, birden fazla fatura detayına veya fatura kaydına sahip olabilir.
 
 ### 5. Veritabanı Bağlantısının Ayarlanması
 
