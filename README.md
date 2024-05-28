@@ -30,8 +30,6 @@ Aşağıdaki komutları çalıştırarak projeyi GitHub'dan klonlayın:
 git clone https://github.com/siracgezgin/e_ticaret.git
 ```
 
-Tabii, veritabanınızın yapısını kullanarak README'ye ekleyelim:
-
 ### 4. Veritabanının Oluşturulması
 
 1. PhpMyAdmin arayüzünü açın. Tarayıcınızın adres çubuğuna `http://localhost/phpmyadmin` yazarak erişebilirsiniz.
