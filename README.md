@@ -125,6 +125,18 @@ CREATE TABLE faturalar (
 2. `urunler` tablosu ile `sepet`, `fatura_detaylari`, ve `faturalar` tabloları arasında bir ilişki vardır. Her ürün birden fazla sepet kaydında, fatura detayında veya fatura kaydında yer alabilir.
 3. `fatura` tablosu ile `fatura_detaylari` ve `faturalar` tabloları arasında bir ilişki vardır. Her fatura, birden fazla fatura detayına veya fatura kaydına sahip olabilir.
 
+### Örnek Veriler
+
+```php
+INSERT INTO urunler (aciklama, eklenme_tarihi, fiyat, isim, stok) VALUES
+('Her lokmada benzersiz bir lezzet sunan büyük boy susamlı ekmeği.', CURRENT_TIMESTAMP, 97.00, 'Whopper®', 100),
+('Her lokmada şölen yaşatan Whopper® eti ve ekmeğiyle hazırlanan bir seçenek.', CURRENT_TIMESTAMP, 175.00, 'Rodeo Whopper®', 50),
+('Daha doyurucu bir deneyim sunan iki kat Whopper® eti ile.', CURRENT_TIMESTAMP, 127.00, 'Double Whopper®', 80),
+('Maksimum lezzet ve doygunluk sağlayan üç kat Whopper® eti ile.', CURRENT_TIMESTAMP, 260.00, 'Triple Whopper®', 30),
+('Aynı lezzeti daha küçük bir pakette sunan Whopper®\'ın küçük boy versiyonu.', CURRENT_TIMESTAMP, 165.00, 'Whopper Jr.®', 60),
+('Et içermeyen bir seçenek olan sebze bazlı hamburger köftesi.', CURRENT_TIMESTAMP, 165.00, 'Plant-Based Whopper®', 40);
+```
+
 ### 5. Veritabanı Bağlantısının Ayarlanması
 
 Projeyi klonladığınız dizindeki `includes` veya `config` klasörüne gidin.
