@@ -122,7 +122,7 @@ CREATE TABLE fatura_detaylari (
 
 Projeyi klonladığınız dizindeki `includes` veya `config` klasörüne gidin.
 
-`db.php` veya `config.php` gibi bir dosyayı açın ve veritabanı bağlantı bilgilerinizi güncelleyin. Örnek bağlantı bilgileri:
+`db.php` dosyasını açın ve veritabanı bağlantı bilgilerinizi güncelleyin. Örnek bağlantı bilgileri:
 
 ```php
 $host = "localhost";
