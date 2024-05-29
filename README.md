@@ -1,6 +1,9 @@
 # Sitenin Linki
 http://sirac.lovestoblog.com/index.php
 
+# Tanıtım Videosu
+https://youtu.be/2BWQuKXVCr4?t=13s
+
 ---
 
 ## E-Ticaret Projesi Kurulum Kılavuzu
