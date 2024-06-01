@@ -91,11 +91,13 @@ CREATE TABLE sepet (
 CREATE TABLE siparisler (
     id INT AUTO_INCREMENT PRIMARY KEY,
     kullanici_id INT NULL,
+    urun_id INT NULL,
     adet INT NULL,
     toplam_fiyat DECIMAL(10, 2) NULL,
     toplam_tutar DECIMAL(10, 2) NULL,
     siparis_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (kullanici_id) REFERENCES kullanicilar(id)
+    FOREIGN KEY (kullanici_id) REFERENCES kullanicilar(id),
+    FOREIGN KEY (urun_id) REFERENCES urunler(urun_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- Fatura Detayları tablosunun oluşturulması
